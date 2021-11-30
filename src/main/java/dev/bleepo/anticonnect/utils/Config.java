@@ -40,7 +40,6 @@ public class Config {
             config = YamlConfiguration.getProvider(YamlConfiguration.class).load(configFile);
         } catch (Exception e) {
             System.out.println("&eFailed to load configuration");
-            e.printStackTrace();
         }
     }
 
